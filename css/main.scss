@@ -1292,21 +1292,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		
-element.style {
-}
-main.css:1
-body.is-menu-visible #menu {
-    -moz-transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-}
-main.css:1
-#menu {
-		@include vendor('transform', 'translateX(20em)');
-		@include vendor('transition', 'transform #{_duration(menu)} ease');
-		-webkit-overflow-scrolling: touch;
 		background: _palette(accent1, bg);
 		color: _palette(accent1, fg-bold);
 		height: 100%;
@@ -1384,7 +1369,7 @@ main.css:1
 			@include vendor('transform', 'translateX(0)');
 		}
 	}
-		
+
 		
 /* Header */
 
