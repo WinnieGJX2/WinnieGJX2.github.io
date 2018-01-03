@@ -857,7 +857,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.special {
-			background-color: #c8ece9;
+			background-color: rgb(166, 224, 219);
 			box-shadow: none !important;
 			color: _palette(accent6, fg-bold) !important;
 
@@ -1033,7 +1033,7 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Wrapper */
 
 	@mixin wrapper($p) {
-		background-color: rgba(212, 255, 255, 0.54);
+		background-color:rgb(166, 224, 219);
 		color: _palette($p, fg);
 
 		// Basic
@@ -1293,7 +1293,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: #dbefe5;
+		background: rgb(166, 224, 219);
 		color: #2E8B57;
 		height: 100%;
 		max-width: 30%;
