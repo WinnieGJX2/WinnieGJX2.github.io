@@ -1241,7 +1241,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style1 {
 			@include wrapper(accent1);
-			background-color:rgba(53, 59, 69)
+			background-color:rgb(53, 59, 69)
 		}
 
 		&.style2 {
