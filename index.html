@@ -1,24 +1,55 @@
-<!doctype html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css" type="text/css">
-<meta charset="UTF-8">
-<title>WCY logo</title>
-</head>
+---
+layout: landing
+---
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.description | markdownify }}</p>
+							
+						</div>
+						<a href="#one" class="button special">About me</a>
+					</section>
 
-<body>
-	<p>WCY LOGO</p>
-	<div class="logo">
-    <iframe src="wcy_logo.svg" width="120" height="120" >
-    </iframe>
-		</div>
-	<p class="svg_insert">插入SVG的方式：使用iframe标签插入SVG</p>
-	<p class="svg_opt">优化缩减百分比：原档案为43.2k，优化后为28.8k，优化缩减百分比为(43.2-28.8)/43.2=33.3%</p>
-	<p class="desc">特效及知识点：<br><br>transform:rotate（旋转）160°       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp按照一定角度旋转元素（单位为度）。	                           
-								   <br>box-shadow: inset 10px 0 red           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp盒阴影效果								 
-								   <br>transition-property: red,box-shadow    &nbsp&nbsp&nbsp渐变效果，要过渡的 CSS 属性的名字  
-								   <br>transition-duration：5s,5s             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp渐变效果，定义过渡效果持续的时长								  
-								   <br>animation: fillBg 5s；5秒钟动画从绿色背景变化为换黄色背景，动画结束，背景变成透明
-	</p>
-</body>
-</html>
+				
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/292842.jpg" alt="" /></div><div class="content">
+								<h2>作品集</h2>
+								<p>包括网页设计与制作课程及信息可视化课程的所有期中和期末作品</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/310450.jpg" alt="" /></div><div class="content">
+								<h2>学习笔记</h2>
+								<p>网页设计与制作课程及信息可视化课程的知识点整合</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/314960.jpg" alt="" /></div><div class="content">
+								<h2>学习心得</h2>
+								<p>记录本学期学习网页设计与制作课程及信息可视化课程的体验、收获和感悟</p>
+							</div>
+						</section>
+					</section>
+
+<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>About me</h2>
+								<p>学校：中山大学南方学院<br/>学院：文学与传媒学院 <br/>专业：网络与新媒体专业<br>姓名：郭佳欣<br>学号：161013030
+								</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+				
+
+				
