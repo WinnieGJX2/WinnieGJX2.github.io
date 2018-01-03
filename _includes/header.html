@@ -7,17 +7,16 @@
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html"><font size="4">主页</font></a></li>
-           <li class="arrow"><a class="hsubs"  a href="infovis.html"><font size="4">信息可视化作品集</font></a>  
-             <li class="arrow"><a class="hsubs"  a href="portfolio.html"><font size="4">作品集(Web)</font></a>  
-		 <li class="arrow"><a class="hsubs" a href="posts.html"><font size="4">文章 </font></a>  
-			 <ul class="subs">
-	                        <li><a href="infovis.html"><font size="2"> 信息可视化笔记 分类(categories)</font></a></li>
-	                        <li><a href="rwd.html"><font size="2">Web 分类(categories)</font></a></li>	               
-	                    </ul>
-                   
-                   
-                   
+            <li><a href="index.html">主页</a></li>
+            {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+            <li><a href="#">信息可视化作品集</a></li>
+            <li><a href="#">作品集（Web）</a></li>
+            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
+                   class="icon fa-feed"> 文章</a></li>
           </ul>
         </div>
       </li>
