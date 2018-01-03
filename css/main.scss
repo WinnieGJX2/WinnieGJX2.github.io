@@ -857,7 +857,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.special {
-			background-color: rgb(166, 224, 219);
+			background-color: rgb(191, 155, 155);
 			box-shadow: none !important;
 			color: _palette(accent6, fg-bold) !important;
 
@@ -979,7 +979,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
-			background-color:#c8ece9
+			background-color:rgb(191, 155, 155)
 		}
 
 		&:nth-child(2n) {
@@ -990,7 +990,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			$j: 0.075 * $i;
 
 			&:nth-child(#{$i}) {
-				background-color: rgba(200, 236, 233, $j);
+				background-color: rgba(191, 155, 155, $j);
 			}
 		}
 
@@ -1293,7 +1293,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: rgb(166, 224, 219);
+		background: rgb(191, 155, 155);
 		color: #2E8B57;
 		height: 100%;
 		max-width: 30%;
@@ -1374,7 +1374,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
-		background: #c8ece9;
+		background: rgb(191, 155, 155);
 		height: 3em;
 		left: 0;
 		line-height: 3em;
