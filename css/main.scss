@@ -1295,7 +1295,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
 		background: rgb(191, 155, 155);
-		color: #2E8B57;
+		color: rgb(245, 249, 247);
 		height: 100%;
 		max-width: 30%;
 		overflow-y: auto;
