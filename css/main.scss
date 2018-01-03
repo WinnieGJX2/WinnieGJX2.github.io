@@ -1033,7 +1033,7 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Wrapper */
 
 	@mixin wrapper($p) {
-		background-color:rgb(166, 224, 219);
+		background-color:#bf9b9b;
 		color: _palette($p, fg);
 
 		// Basic
@@ -1241,6 +1241,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style1 {
 			@include wrapper(accent1);
+			background-color:#bf9b9b
 		}
 
 		&.style2 {
