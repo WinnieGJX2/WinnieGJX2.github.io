@@ -1033,7 +1033,7 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Wrapper */
 
 	@mixin wrapper($p) {
-		background-color:rgba(107, 100, 97, 0.5019607843137255);
+		background-color:rgba(53, 59, 69);
 		color: _palette($p, fg);
 
 		// Basic
