@@ -1292,7 +1292,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: #98FB98;
+		background: #dbefe5;
 		color: #2E8B57;
 		height: 100%;
 		max-width: 30%;
