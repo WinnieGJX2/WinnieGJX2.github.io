@@ -13,7 +13,7 @@
     {% endif %}
     {% endfor %}
   </ul>
-  <ul class="copyright">
+  <ul class="copyright"> {{ site.affiliation }}
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
       {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
